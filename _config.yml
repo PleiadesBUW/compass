@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-title: "PLEIADES"
-description: "User documentation for the PLEIADES cluster at the University of Wuppertal"
+title: "COMPASS"
+description: "User documentation for the COMPASS student lab at the University of Wuppertal"
 show_downloads: false
 markdown: kramdown
