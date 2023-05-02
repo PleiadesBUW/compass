@@ -12,6 +12,6 @@ Its main focus are forefront computing methods and their applications on high-pe
 COMPASS is centered around the parallel high-performance computer ALiCEnext and its development cluster computers. Research is performed in the fields of Theoretical and Experimental Particle Physics and Mathematics.
 COMPASS plays an important role for teaching in the Master program Computer Simulation in Science.
 
-If you are a new user, please read our [getting started section]({{ site.baseurl }}{% link gettingstarted.md %}). 
+If you are a new user, please read our getting started section. 
 
 
