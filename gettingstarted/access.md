@@ -1,8 +1,12 @@
 ## Getting Started: Access
 ### Getting an account
-In general you will receive a compass account after your group leader (professor, project lead etc.) has requested for access
-for your group, in this case, you will receive an email at your registered email address (University email address for students)
-with your username and initial password. It is highly recommended to change your password to a  personal password of sufficient 
+In general you will receive a compass account when you register as a student, at the beginning of the semester.
+
+If you have not beem assigned a compass account in the way mentioned above, please send an email to:
+
+**haeusling{at}uni-wuppertal.de**
+
+It is highly recommended to change your password to a  personal password of sufficient 
 as soon as possible (a week ideally). This can be done by going to your terminal and entering the 
 
 ```bash
@@ -13,17 +17,13 @@ command.
 
 After entering this command, you can enter a password and press enter.
 
-If you have not beem assigned a compass account in the way mentioned above, please send an email to:
-
-**haeusling{at}uni-wuppertal.de**
-
 
 ### Questions/Support
-In case of questions and problems, we advice to first ask your group leader (professor, project lead etc.) as often times they have 
+In case of questions and problems, we advice to first ask your professor or teaching assistant, as often times they have 
 sufficient knowledge about compass to assist in simple matters, if that is not sufficient please feel free to ask for additional help 
 or support at:
 
-**relevant_email**
+**haeusling{at}uni-wuppertal.de**
 
 
 ### Remote login
@@ -38,3 +38,31 @@ $ ssh username@compass22.uni-wuppertal.de
 ```
 You can replace "compass22" with any valid computer ID. When you log in, you are accessing your account on the compass computer, hence don't 
 worry your friend and you can access the same computer if you want, it is not one user at a time per computer.
+
+A list of currently accessible IP addresses:
+
+* compass20.physik.uni-wuppertal.de
+* compass21.physik.uni-wuppertal.de
+* compass22.physik.uni-wuppertal.de
+* compass23.physik.uni-wuppertal.de
+* compass24.physik.uni-wuppertal.de
+* compass25.physik.uni-wuppertal.de
+* compass26.physik.uni-wuppertal.de
+* compass27.physik.uni-wuppertal.de
+* compass28.physik.uni-wuppertal.de
+* compass29.physik.uni-wuppertal.de
+* compass30.physik.uni-wuppertal.de
+* compass33.physik.uni-wuppertal.de
+* compass34.physik.uni-wuppertal.de
+* compass35.physik.uni-wuppertal.de
+* compass36.physik.uni-wuppertal.de
+* compass37.physik.uni-wuppertal.de
+* compass38.physik.uni-wuppertal.de
+* compass39.physik.uni-wuppertal.de
+* compass40.physik.uni-wuppertal.de
+* compass42.physik.uni-wuppertal.de
+* compass43.physik.uni-wuppertal.de
+* compass44.physik.uni-wuppertal.de
+* compass45.physik.uni-wuppertal.de
+
+This late might be change with time but in general many of these IP addresses will be available for you to connect remotely.
