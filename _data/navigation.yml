@@ -5,8 +5,8 @@
   sublinks:
     - title: Access and Login
       url: /gettingstarted/access
-    - title: Software & File Systems
-      url: /gettingstarted/software
+    - title: Linux and Comamnd line
+      url: /gettingstarted/terminal
     - title: Computations
       url: /gettingstarted/computations
 - title: Hardware
