@@ -65,4 +65,4 @@ A list of currently accessible IP addresses:
 * compass44.physik.uni-wuppertal.de
 * compass45.physik.uni-wuppertal.de
 
-This late might be change with time but in general many of these IP addresses will be available for you to connect remotely.
+This list might change with time but in general many of these IP addresses will be available for you to connect remotely.
