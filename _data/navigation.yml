@@ -7,8 +7,8 @@
       url: /gettingstarted/access
     - title: Linux and Command line
       url: /gettingstarted/terminal
-    - title: Computations
-      url: /gettingstarted/computations
+    - title: Parallel Programming
+      url: /gettingstarted/parallel
 - title: Hardware
   url: /hardware
 - title: File Systems
