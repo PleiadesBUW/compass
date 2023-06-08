@@ -4,7 +4,7 @@ We also describe our monitoring system, which can be useful to get a better pict
 
 - [Access and Login](https://pleiadesbuw.github.io/compass/gettingstarted/access)
 - [Linux and Command line](https://pleiadesbuw.github.io/compass/gettingstarted/terminal)
-- [Parallel Programming](gettingstarted/computations)
+- [Parallel Programming](https://pleiadesbuw.github.io/compass/gettingstarted/parallel)
 <!-- resources? -->
 
 Links to more detailed information are provided in text.
