@@ -3,9 +3,8 @@ These pages cover everything from requesting an account, important first steps, 
 We also describe our monitoring system, which can be useful to get a better picture of the activity on our cluster
 
 - [Access and Login](https://pleiadesbuw.github.io/compass/gettingstarted/access)
-- [Software & File Systems](gettingstarted/software)
-- [Computations](gettingstarted/computations)
-- [Monitoring](gettingstarted/zabbix)
+- [Linux and Command line](https://pleiadesbuw.github.io/compass/gettingstarted/terminal)
+- [Parallel Programming](gettingstarted/computations)
 <!-- resources? -->
 
 Links to more detailed information are provided in text.
