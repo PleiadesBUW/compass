@@ -5,7 +5,7 @@
 - title: Access and Login
   url: /access
 - title: Linux and Command line
-  url: /linux_cmd
+  url: /linux
 - title: Parallel Programming
   url: /parallel
 - title: Docker
