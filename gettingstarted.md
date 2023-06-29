@@ -1,10 +1,15 @@
 ## Getting Started
-These pages cover everything from requesting an account, important first steps, to using available software and submitting a simple job.
-We also describe our monitoring system, which can be useful to get a better picture of the activity on our cluster
+Welcome to the Compass lab! To make the most of your time here, it's essential to familiarize yourself with the Linux operating system and understand the basics of command-line usage. This page will guide you through the initial steps, helping you gain access to the computers and providing resources to learn about the command line.
 
-- [Access and Login](https://pleiadesbuw.github.io/compass/gettingstarted/access)
-- [Linux and Command line](https://pleiadesbuw.github.io/compass/gettingstarted/terminal)
-- [Parallel Programming](https://pleiadesbuw.github.io/compass/gettingstarted/parallel)
-<!-- resources? -->
+## 1. Accessing the Computers
+To begin using the COMPASS lab, you need to obtain access. You can do do by following the steps given here:
 
-Links to more detailed information are provided in text.
+- [Access and Login](https://pleiadesbuw.github.io/compass/access)
+
+## 2. Linux and the Command Line
+
+Many of our users of ten have very little or no experience using Linux systems or the Command Line Interface (CLI). The CLI is a powerful tool for interacting with the Linux operating system. It enables you to execute commands, manage files, and control various aspects of the computer system. If you are new to the command line or need a refresher, the following resource will be helpful:
+
+- [Linux and Command line](https://pleiadesbuw.github.io/compass/terminal)
+
+More information about topics such as Parallel computing as well as Docker can be found via the relevant sections on the main page.
