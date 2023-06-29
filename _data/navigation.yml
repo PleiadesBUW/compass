@@ -3,9 +3,9 @@
 - title: Getting Started
   url: /gettingstarted
 - title: Access and Login
-  url: /gettingstarted/access
+  url: /access
 - title: Linux and Command line
-  url: /terminal
+  url: /linux_cmd
 - title: Parallel Programming
   url: /parallel
 - title: Hardware
