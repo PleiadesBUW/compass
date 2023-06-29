@@ -2,26 +2,13 @@
   url: /
 - title: Getting Started
   url: /gettingstarted
-  sublinks:
-    - title: Access and Login
-      url: /gettingstarted/access
-    - title: Linux and Command line
-      url: /gettingstarted/terminal
-    - title: Parallel Programming
-      url: /gettingstarted/parallel
+- title: Access and Login
+  url: /gettingstarted/access
+- title: Linux and Command line
+  url: /terminal
+- title: Parallel Programming
+  url: /parallel
 - title: Hardware
   url: /hardware
-- title: File Systems
-  url: /filesystem
-  sublinks:
-    - title: NFS
-      url: /filesystem/NFS
-    - title: Best Practices
-      url: /filesystem/bestpractices
-- title: Software
-  url: /software
-  sublinks:
-    - title: Available Software
-      url: /software/avail
 - title: FAQ
   url: /faq
