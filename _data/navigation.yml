@@ -8,6 +8,8 @@
   url: /linux_cmd
 - title: Parallel Programming
   url: /parallel
+- title: Docker
+  url: /docker
 - title: Hardware
   url: /hardware
 - title: FAQ
