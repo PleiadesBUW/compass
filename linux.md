@@ -11,7 +11,7 @@ There are many reasons why Linux os prefered in academic and work settings:
 
 * Linux is quite light weight. As an emphasis is on performance you will notice that most programs will run faster on Linux compared to other OSs as the memory footprint and disk space are lower.
 
-## How to use the Command line
+### How to use the Command line
 
 #### 1. What is a Command line
 
@@ -66,12 +66,8 @@ Users can execute programs directly from the command line and open softwares as 
 * typing "**python filename.py**" in the command line and pressing **enter** can run/execute the Python file "**filename.py**".
 * typing "**matlab**" in the command line and pressing **enter** starts the MATLAB environment.
 
-
+### Additional Information
 
 Further commands for the Linux command line and useful information can be found [here](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 
-
-
-
-
-
+For more detailed information regarding Linux, you can look at [The Linux Documentation Project](https://tldp.org/).
