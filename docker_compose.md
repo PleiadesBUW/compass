@@ -103,7 +103,7 @@ To start:
 
 Next:
 
-1. Create a `docker-compose.yml` file in the project directory (`my-app`) using a text editor:
+* Create a `docker-compose.yml` file in the project directory (`my-app`) using a text editor:
 
   ````
   version: '3'
@@ -125,9 +125,9 @@ Next:
   
   In this example, we define two services: web and db. The web service uses the official nginx image, maps port 8080 on      the host to port 80 in the container, and mounts the html directory from the host to the /usr/share/nginx/html directory   inside the container. The db service uses the official mysql image and sets environment variables for the root password,   database, user, and password.
 
-2. Create an `html` directory in the project directory (`my-app`) and place your HTML files inside it.
+* Create an `html` directory in the project directory (`my-app`) and place your HTML files inside it.
 
-3. Open a terminal or command prompt, navigate to the project directory (`my-app`), and run the following command to start   the application:
+* Open a terminal or command prompt, navigate to the project directory (`my-app`), and run the following command to start   the application:
   
   ````
   docker-compose up -d
@@ -135,7 +135,7 @@ Next:
   
   This command starts the services defined in the docker-compose.yml file in detached mode (-d), creating and running the    containers.
 
-4. Open a web browser and navigate to **`http://localhost:8080`** to access your web applicatio
+* Open a web browser and navigate to **`http://localhost:8080`** to access your web applicatio
 
 In this example, we demonstrate a basic use case where we use Docker Compose to define and run a multi-container application. The `docker-compose.yml` file specifies two services: `web` and `db`. The `web` service uses the official `nginx` image, mounts the `html` directory from the host, and exposes port 8080. The `db` service uses the official `mysql` image and sets environment variables. Running `docker-compose up -d` starts the application, and you can access the web application by navigating to `http://localhost:8080` in a web browser.
 
