@@ -85,9 +85,9 @@ Note: Docker Desktop for macOS requires a compatible version of macOS. Make sure
 ### Example
 To get you started, a simple example can be how to `pull` and `run` the `hello-world` image from Docker hub.
 
-1. Open a terminal or command prompt.
+* Open a terminal or command prompt.
 
-2. Pull the "hello-world" image from Docker Hub by running the following command:
+* Pull the "hello-world" image from Docker Hub by running the following command:
 
 ````````
 $ docker pull hello-world
@@ -95,7 +95,7 @@ $ docker pull hello-world
 
 This command will download the latest version of the **hello-world** image to your local machine.
 
-3. Once the image is downloaded, run the Docker container using the following command:
+* Once the image is downloaded, run the Docker container using the following command:
 
 ````````
 $ docker run hello-world
