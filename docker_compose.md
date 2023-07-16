@@ -96,9 +96,10 @@ To start:
 
 2. Create a directory for your application and navigate to it using the command line:
 
-```bash
-   mkdir my-app
-   cd my-app
+```
+ mkdir my-app
+ cd my-app
+````
 
 Next:
 
