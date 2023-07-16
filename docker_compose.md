@@ -28,7 +28,7 @@ Volumes in Docker Compose allow you to persist and share data between containers
 
 To define a volume in Docker Compose, you can use the `volumes` key under a service. Here's an example:
 
-```yaml
+````
 services:
   db:
     image: mysql
@@ -37,6 +37,7 @@ services:
 
 volumes:
   db_data:
+````
 
 In this example, a volume named `db_data` is created, and it is mounted to the `/var/lib/mysql` directory inside the db service container.
 
@@ -46,7 +47,7 @@ Networks in Docker Compose enable communication between containers within the sa
 
 To define a network in Docker Compose, you can use the `networks` key under a service. Here's an example:
 
-```yaml
+````
 services:
   web:
     image: nginx
@@ -62,6 +63,7 @@ services:
 networks:
   frontend:
   backend:
+````
 
 In this example, two networks are defined: `frontend` and `backend`. The `web` service is connected to the `frontend` network, while the `api` service is connected to both the `frontend` and `backend` networks.
 
@@ -83,3 +85,62 @@ To use Docker Compose, follow these steps:
 6. When you're done, use `Ctrl + C` to stop the Docker Compose command, or run `docker-compose down` to stop and remove the containers.
 
 Docker Compose simplifies the process of running multi-container applications and enables easy management of complex application stacks.
+
+
+## Example
+To get you started, let's consider running a multi-container application using a `docker-compose.yml` file. Here are the steps:
+
+To start:
+
+1. Ensure Docker Compose is installed on your machine. If not, follow the official Docker Compose installation guide for your operating system.
+
+2. Create a directory for your application and navigate to it using the command line:
+
+```bash
+   mkdir my-app
+   cd my-app
+
+Next:
+
+1. Create a `docker-compose.yml` file in the project directory (`my-app`) using a text editor:
+
+````
+version: '3'
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - 8080:80
+    volumes:
+      - ./html:/usr/share/nginx/html
+  db:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=secretpassword
+      - MYSQL_DATABASE=mydatabase
+      - MYSQL_USER=myuser
+      - MYSQL_PASSWORD=mypassword
+````
+
+In this example, we define two services: web and db. The web service uses the official nginx image, maps port 8080 on the host to port 80 in the container, and mounts the html directory from the host to the /usr/share/nginx/html directory inside the container. The db service uses the official mysql image and sets environment variables for the root password, database, user, and password.
+
+2. Create an `html` directory in the project directory (`my-app`) and place your HTML files inside it.
+
+3. Open a terminal or command prompt, navigate to the project directory (`my-app`), and run the following command to start the application:
+
+````
+docker-compose up -d
+````
+
+This command starts the services defined in the docker-compose.yml file in detached mode (-d), creating and running the containers.
+
+4. Open a web browser and navigate to **`http://localhost:8080`** to access your web applicatio
+
+In this example, we demonstrate a basic use case where we use Docker Compose to define and run a multi-container application. The `docker-compose.yml` file specifies two services: `web` and `db`. The `web` service uses the official `nginx` image, mounts the `html` directory from the host, and exposes port 8080. The `db` service uses the official `mysql` image and sets environment variables. Running `docker-compose up -d` starts the application, and you can access the web application by navigating to `http://localhost:8080` in a web browser.
+
+That's it! You've successfully run a multi-container application using Docker Compose.
+
+## Additional Information
+
+If you would like any additionalk information, please refer to this [documentation](https://docs.docker.com/compose/).
+
