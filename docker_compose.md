@@ -92,48 +92,48 @@ To get you started, let's consider running a multi-container application using a
 
 To start:
 
-1. Ensure Docker Compose is installed on your machine. If not, follow the official Docker Compose installation guide for your operating system.
+1. Ensure Docker Compose is installed on your machine. If not, follow the official Docker Compose installation guide for     your operating system.
 
 2. Create a directory for your application and navigate to it using the command line:
 
-```
- mkdir my-app
- cd my-app
-````
+  ```
+   mkdir my-app
+   cd my-app
+  ````
 
 Next:
 
 1. Create a `docker-compose.yml` file in the project directory (`my-app`) using a text editor:
 
-````
-version: '3'
-services:
-  web:
-    image: nginx:latest
-    ports:
-      - 8080:80
-    volumes:
-      - ./html:/usr/share/nginx/html
-  db:
-    image: mysql:latest
-    environment:
-      - MYSQL_ROOT_PASSWORD=secretpassword
-      - MYSQL_DATABASE=mydatabase
-      - MYSQL_USER=myuser
-      - MYSQL_PASSWORD=mypassword
-````
-
-In this example, we define two services: web and db. The web service uses the official nginx image, maps port 8080 on the host to port 80 in the container, and mounts the html directory from the host to the /usr/share/nginx/html directory inside the container. The db service uses the official mysql image and sets environment variables for the root password, database, user, and password.
+  ````
+  version: '3'
+  services:
+    web:
+      image: nginx:latest
+      ports:
+        - 8080:80
+      volumes:
+        - ./html:/usr/share/nginx/html
+    db:
+      image: mysql:latest
+      environment:
+        - MYSQL_ROOT_PASSWORD=secretpassword
+        - MYSQL_DATABASE=mydatabase
+        - MYSQL_USER=myuser
+        - MYSQL_PASSWORD=mypassword
+  ````
+  
+  In this example, we define two services: web and db. The web service uses the official nginx image, maps port 8080 on      the host to port 80 in the container, and mounts the html directory from the host to the /usr/share/nginx/html directory   inside the container. The db service uses the official mysql image and sets environment variables for the root password,   database, user, and password.
 
 2. Create an `html` directory in the project directory (`my-app`) and place your HTML files inside it.
 
-3. Open a terminal or command prompt, navigate to the project directory (`my-app`), and run the following command to start the application:
-
-````
-docker-compose up -d
-````
-
-This command starts the services defined in the docker-compose.yml file in detached mode (-d), creating and running the containers.
+3. Open a terminal or command prompt, navigate to the project directory (`my-app`), and run the following command to start   the application:
+  
+  ````
+  docker-compose up -d
+  ````
+  
+  This command starts the services defined in the docker-compose.yml file in detached mode (-d), creating and running the    containers.
 
 4. Open a web browser and navigate to **`http://localhost:8080`** to access your web applicatio
 
