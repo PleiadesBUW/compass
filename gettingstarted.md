@@ -6,6 +6,8 @@ To begin using the COMPASS lab, you need to obtain access. You can do do by foll
 
 - [Access and Login](https://pleiadesbuw.github.io/compass/access)
 
+**Note: The door is equipped with a keypad lock that necessitates entering a 4-digit code for entry. Your Teaching Assistant or Professor should provide you with this entry code.**
+
 ## 2. Linux and the Command Line
 
 Many of our users of ten have very little or no experience using Linux systems or the Command Line Interface (CLI). The CLI is a powerful tool for interacting with the Linux operating system. It enables you to execute commands, manage files, and control various aspects of the computer system. If you are new to the command line or need a refresher, the following resource will be helpful:
