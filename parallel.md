@@ -78,3 +78,7 @@ $ ./openmp_program
 
 * OpenMP automatically distributes the workload across available threads, utilizing parallelism.
 
+### Additional Information
+
+If you would like more information, we suggest visiting the [HPC Wiki](https://hpc-wiki.info/hpc/OpenMP_in_Small_Bites).
+
