@@ -30,10 +30,9 @@ or support at:
 You can access compass computers without being in the lab! Think of each computer as a server which can be accessed remotely. To do this
 you need to know your username and password for compass lab and know the IP address of a compass computer.
 
-Before proceeding any further, you need to use the VPN service from the ZIM to gain access from outside the university by going to this [link](https://zim.uni-wuppertal.de/en/services/network-access/vpn-connections/)
+Before proceeding any further, you need to use the VPN service from the ZIM to gain access from outside the university by going to this [link](https://zim.uni-wuppertal.de/en/services/network-access/vpn-connections/) and additionally useful might be this [link](https://zim.uni-wuppertal.de/de/unsere-dienste/netzzugang/vpn-aussenzugang/download-vpn-client/).
 
-To access compass computers 
-remotely, on your personal computer open a command prompt by going to your windows search bar and entering "CMD". This will open a terminal.
+To access compass computers remotely, on your personal computer open a command prompt by going to your windows search bar and entering "CMD". This will open a terminal.
 
 Here, you can use a ssh (Secure Shell Protocol) to access a particular compass computer. The command will look something like:
 
