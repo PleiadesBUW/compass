@@ -82,5 +82,39 @@ Congratulations! Docker is now installed on your macOS computer.
 
 Note: Docker Desktop for macOS requires a compatible version of macOS. Make sure to check the Docker documentation for any specific system requirements or compatibility issues.
 
+### Example
+To get you started, a simple example can be how to `pull` and `run` the `hello-world` image from Docker hub.
 
+1. Open a terminal or command prompt.
 
+2. Pull the "hello-world" image from Docker Hub by running the following command:
+
+````````
+$ docker pull hello-world
+````````
+
+This command will download the latest version of the **hello-world** image to your local machine.
+
+3. Once the image is downloaded, run the Docker container using the following command:
+
+````````
+$ docker run hello-world
+````````
+
+Docker will create a container from the "hello-world" image and execute it. You should see an output message **"Hello from Docker!"** confirming that Docker is working correctly.
+
+To generate this message, Docker completed the following steps:
+ 
+ 1. The Docker client communicated with the Docker daemon.
+ 
+ 2. The Docker daemon retrieved the 'hello-world' image from the Docker Hub repository. (amd64)
+ 
+ 3. Using the downloaded image, the Docker daemon created a new container that executed the program responsible for generating the output you are currently viewing.
+ 
+ 4. The Docker daemon streamed the resulting output to the Docker client, which then forwarded it to your terminal.
+
+That's it! You have successfully pulled and run the "hello-world" Docker image. Feel free to explore more Docker images and containers to enhance your containerization experience.
+
+### Additional Information
+
+If you would like to access more detailed information about Docker, please visit the [official documentation](https://docs.docker.com/).
