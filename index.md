@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### COMPASS lab doumentation
+### COMPASS lab documentation
 ![Compass_Lab](compass_lab.jpeg)
 
 Welcome to the user documentation of the COMPASS student lab, at the University of Wuppertal.
