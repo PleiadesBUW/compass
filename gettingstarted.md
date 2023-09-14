@@ -1,3 +1,9 @@
+---
+title: Getting Started
+layout: default
+nav_order: 1
+---
+
 ## Getting Started
 Welcome to the Compass lab! To make the most of your time here, it's essential to familiarize yourself with the Linux operating system and understand the basics of command-line usage. This page will guide you through the initial steps, helping you gain access to the computers and providing resources to learn about the command line.
 

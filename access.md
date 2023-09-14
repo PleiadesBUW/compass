@@ -1,3 +1,9 @@
+---
+title: Access and Login
+layout: default
+nav_order: 2
+---
+
 ## Getting Started: Access
 ### Getting an account
 In general you will receive a compass account when you register as a student, at the beginning of the semester.

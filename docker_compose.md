@@ -1,3 +1,9 @@
+---
+title: Docker Compose
+layout: default
+nav_order: 6
+---
+
 # Docker Compose
 
 ## What is Docker Compose?

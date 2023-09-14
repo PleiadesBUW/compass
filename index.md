@@ -1,5 +1,7 @@
 ---
+title: COMPASS lab documentation
 layout: default
+nav_exclude: true
 ---
 
 ### COMPASS lab documentation

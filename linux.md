@@ -1,3 +1,9 @@
+---
+title: Linux and Command line
+layout: default
+nav_order: 3
+---
+
 ## Getting Started: Linux Interface
 ### Linux
 

@@ -1,3 +1,9 @@
+---
+title: Docker
+layout: default
+nav_order: 5
+---
+
 # Introduction to Docker
 
 ## What is Docker?

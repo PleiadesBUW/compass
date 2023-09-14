@@ -1,5 +1,7 @@
-theme: jekyll-theme-minimal
-title: "COMPASS"
-description: "User documentation for the COMPASS student lab at the University of Wuppertal. The COMPASS lab is located in D.11.01, meaning Building D. Floor 11. Room 1."
+title: COMPASS
+description: User documentation for the COMPASS student lab at the University of Wuppertal. The COMPASS lab is located in D.11.01, meaning Building D. Floor 11. Room 1.
+theme: just-the-docs
 show_downloads: false
 markdown: kramdown
+url: https://pleiadesbuw.github.io/compass
+color_scheme: pleiades

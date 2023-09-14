@@ -1,3 +1,9 @@
+---
+title: Parallel Programming
+layout: default
+nav_order: 4
+---
+
 ## Getting Started: Parallel Programming
 ### Parallel Programming
 
